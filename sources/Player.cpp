@@ -70,7 +70,7 @@ Player &Player::fly_shuttle(City c)
     {
         throw invalid_argument("there no research station in one of the city`s");
     }
-    cards.erase(city);
+    //cards.erase(city);
     city = c;
     return *this;
 }
